@@ -1,0 +1,48 @@
+# 📌 1. Register a New User
+
+mutation {
+  register(
+    name: "John Doe"
+    email: "john@example.com"
+    password: "password123"
+    preferences: ["electronics", "books", "fitness"]
+  )
+}
+
+# 📌 2. Get User Profile
+
+query {
+  me(token: "PASTE_YOUR_TOKEN_HERE") {
+    id
+    name
+    email
+    preferences
+  }
+}
+
+# 📌 3. Update User Preferences
+
+mutation {
+  updatePreferences(
+    token: "PASTE_YOUR_TOKEN_HERE"
+    preferences: ["fitness", "gadgets"]
+  )
+}
+
+# 📌 4. Create a Mock Order
+
+mutation {
+  createOrder(userId: "PASTE_USER_ID_HERE", product: "Apple AirPods")
+}
+
+# 📌 5. Fetch Unread Notifications
+
+query {
+  unreadNotifications(userId: "PASTE_USER_ID_HERE") {
+    id
+    type
+    content
+    sentAt
+    read
+  }
+}

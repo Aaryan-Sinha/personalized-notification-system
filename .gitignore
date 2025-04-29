@@ -1,0 +1,14 @@
+# Node.js
+node_modules/
+.env
+npm-debug.log
+logs
+*.log
+.DS_Store
+
+# Docker
+*.pid
+
+# VSCode or IDE configs
+.vscode/
+.idea/
