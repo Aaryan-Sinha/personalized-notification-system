@@ -9,6 +9,8 @@ mutation {
   )
 }
 
+#this would give a token
+
 # 📌 2. Get User Profile
 
 query {
@@ -19,6 +21,8 @@ query {
     preferences
   }
 }
+
+#this would give an id
 
 # 📌 3. Update User Preferences
 
