@@ -1,8 +1,4 @@
-📚 Let's start step-by-step.
-1. Main Project README.md (FULL ARCHITECTURE + Instructions)
-markdown
-Copy
-Edit
+
 # Personalized Notification System 🚀
 
 ## 📚 Overview
@@ -26,17 +22,6 @@ It allows users to receive personalized notifications based on browsing history,
 | Databases | MongoDB |
 | Message Broker | RabbitMQ |
 | Containerization | Docker, Docker Compose |
-
----
-
-## ⚙️ Architecture Diagram
-
-(Client App) | (GraphQL Gateway - Apollo Server) |
-| | | | (User Service) (Notification Service) (Recommendation Service) (Order Mock Service) | | | | (MongoDB) (MongoDB) (MongoDB) (MongoDB) ___________________________________________ | (RabbitMQ)
-
-yaml
-Copy
-Edit
 
 ---
 
